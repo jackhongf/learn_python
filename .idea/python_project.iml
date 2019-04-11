@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/com" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (pythonProject)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (learn_python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

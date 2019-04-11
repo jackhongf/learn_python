@@ -163,7 +163,12 @@ printObj(MyException.__doc__)
 """
 
 class User:
-
+    #双 '_' 代表类的成员变量为private
+    __nameVal='jack'
+    #单'_' 代表类成员变量为 protected
+    _ageVal=12
+    #成员变量为类public
+    publicGenderVal='F'
     #这是一个默认的构造器
     def __init__(self,name,age,gender):
         self.name=name
@@ -178,25 +183,80 @@ class User:
         pass
         return cls
 
-def testCreateObjNoParam():
-    user = User.invokeUser()
-
-    #不存在‘name’ 属性时，设置一个属性
-    if not hasattr(user, 'name'):
-        setattr(user, 'name', 'rose')
-        printObj("testCreateObjNoParam设置名称成功：rose")
-
-testCreateObjNoParam()
-
 
 
 def testCreateObj():
-    user = User(name='jack',gender='F',age=123)
+    user = User(name='jack' ,age=23,gender='F')
+    print(user.publicGenderVal)
+    print(user.gender)
+
+"""
     if hasattr(user, 'name'):
         setattr(user, 'name', 'rose')
         printObj("设置名称成功：rose")
         pass
-# testCreateObj()
+"""
+testCreateObj()
+
+class House(object):
+    __name=''
+    __address=''
+    __floor=0
+    __heigth=0
+    __prise=0
+
+    def __int__(self):
+        pass
+
+    def getName(self):
+        return self.__name
+
+    def getAddress(self):
+        return self.__address
+
+    def getFloor(self):
+        return self.__floor
+
+    def getHeigth(self):
+        return self.__heigth
+
+    def getPrise(self, prise):
+        return self.__prise
+
+    def setHeigth(self,heigth):
+         self.__heigth=heigth
+
+    def setPrise(self,prise):
+         self.__prise=prise
+
+    def setName(self,name):
+         self.__name=name
+
+    def setAddress(self,address):
+         self.__address=address
+
+    def setFloor(self,floor):
+         self.__floor=floor
+
+    def toString(self):
+        dit={}
+        dit["__name"] = self.__name
+        dit["__address"] = self.__address
+        dit["__floor"] = self.__floor
+        dit["__heigth"] = self.__heigth
+        dit["__prise"] = self.__prise
+        return str(dit)
+
+def testHouse():
+    house = House()
+    house.setAddress("武汉")
+    house.setFloor(10)
+    house.setHeigth(200)
+    house.setName("保利新武昌")
+    house.setPrise(720000)
+    print(house.toString())
+
+testHouse()
 
 
 
