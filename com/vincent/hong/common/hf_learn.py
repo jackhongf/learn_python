@@ -252,13 +252,6 @@ class School(House):
     def __int__(self):
         print("我是子类 School")
 
-
-
-
-
-
-
-
 def testHouse():
     house = House()
     house.setAddress("武汉")
@@ -273,20 +266,37 @@ def testHouse():
 testHouse()
 
 
+# import mysql.connector
+#
+# mydb = mysql.connector.connect(
+#     host="localhost",  # 数据库主机地址
+#     user="root",  # 数据库用户名
+#     passwd="mysql",  # 数据库密码
+#     database = "python"
+#
+# )
+# myCursor = mydb.cursor()
+# sql="insert into User (name,address,gender)values (%s,%s,%s) "
+# val=('jack','武汉','F')
+# myCursor.execute(sql,val)
+# mydb.commit()
+# print("插入用户成功")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import pymysql
+db=pymysql.connect("localhost","root","mysql","python")
+cursor=db.cursor()
+sql="select * from User"
+cursor.execute(sql)
+results=cursor.fetchall()
+for tmp in results:
+    id=tmp[0]
+    name=tmp[1]
+    address=tmp[2]
+    gender=tmp[3]
+    printObj(tmp)
+    print("id=%s,name=%s,address=%s,gender=%s"%(id,name,address,gender))
+sql="insert into User (name,address,gender)values (%s,%s,%s) "
+val=('mark','天津','F')
+# insertSql=r"insert into User(name,address,gender) values('rose','上海','M')"
+cursor.execute(sql,val)
+db.commit()
