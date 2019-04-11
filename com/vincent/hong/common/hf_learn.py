@@ -206,7 +206,7 @@ class House(object):
     __prise=0
 
     def __int__(self):
-        pass
+        print("我是父类：House")
 
     def getName(self):
         return self.__name
@@ -247,6 +247,18 @@ class House(object):
         dit["__prise"] = self.__prise
         return str(dit)
 
+
+class School(House):
+    def __int__(self):
+        print("我是子类 School")
+
+
+
+
+
+
+
+
 def testHouse():
     house = House()
     house.setAddress("武汉")
@@ -255,11 +267,10 @@ def testHouse():
     house.setName("保利新武昌")
     house.setPrise(720000)
     print(house.toString())
+    chd = School()
+    chd.getHeigth()
 
 testHouse()
-
-
-
 
 
 

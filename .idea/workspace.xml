@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0a838f2-ba38-4487-88e0-e2fb23924d5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/vincent/hong/common/Cat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" afterDir="false" />
     </list>
@@ -14,6 +15,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonProject$hf_learn.coverage" NAME="hf_learn Coverage Results" MODIFIED="1554885625957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
     <SUITE FILE_PATH="coverage/pythonProject$python_learn.coverage" NAME="python_learn Coverage Results" MODIFIED="1554788843275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
+    <SUITE FILE_PATH="coverage/learn_python$Cat.coverage" NAME="Cat Coverage Results" MODIFIED="1554957890883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
+    <SUITE FILE_PATH="coverage/learn_python$hf_learn.coverage" NAME="hf_learn Coverage Results" MODIFIED="1554963695570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="248" selection-start-line="248" selection-end-line="248" />
+            <state relative-caret-position="149">
+              <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
             </state>
           </provider>
         </entry>
@@ -99,6 +102,7 @@
       <find>pass</find>
       <find>import</find>
       <find>math</find>
+      <find>speed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,6 +118,7 @@
         <option value="$PROJECT_DIR$/com/vincent/hong/service/num_utils.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/service/hf_utils.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/common/__init__.py" />
+        <option value="$PROJECT_DIR$/com/vincent/hong/common/Cat.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" />
       </list>
     </option>
@@ -171,6 +176,11 @@
               <item name="hong" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -207,6 +217,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.hf_learn">
+    <configuration name="Cat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/vincent/hong/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/vincent/hong/common/Cat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,6 +308,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.hf_learn" />
+        <item itemvalue="Python.Cat" />
         <item itemvalue="Python.python_learn" />
         <item itemvalue="Python.__init__" />
       </list>
@@ -295,7 +328,7 @@
       <workItem from="1554715385785" duration="907000" />
       <workItem from="1554779479427" duration="7782000" />
       <workItem from="1554859441698" duration="21493000" />
-      <workItem from="1554951336001" duration="100000" />
+      <workItem from="1554951336001" duration="4684000" />
     </task>
     <task id="LOCAL-00001" summary="1.异常及自定义异常的学习&#10;2.新增对象的学习">
       <created>1554886204943</created>
@@ -308,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41761000" />
+    <option name="totallyTimeSpent" value="46345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,22 +354,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" weight="0.41147542" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4977307" weight="0.44262296" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.41147542" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969743" weight="0.25245902" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030257" side_tool="true" visible="true" weight="0.20163934" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4969743" visible="true" weight="0.20163934" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.505295" side_tool="true" visible="true" weight="0.41147542" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4969743" weight="0.10819672" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -382,6 +416,11 @@
           <url>file://H:/Program Files/Python/Lib/tkinter/__init__.py</url>
           <line>64</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py</url>
+          <line>262</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -583,10 +622,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://H:/Program Files/Python/Lib/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57895">
+          <caret line="1615" column="8" selection-start-line="1615" selection-start-column="8" selection-end-line="1615" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/Cat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        <state relative-caret-position="149">
+          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
         </state>
       </provider>
     </entry>
