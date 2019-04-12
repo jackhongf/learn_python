@@ -282,6 +282,7 @@ testHouse()
 # mydb.commit()
 # print("插入用户成功")
 
+"""
 import pymysql
 db=pymysql.connect("localhost","root","mysql","python")
 cursor=db.cursor()
@@ -300,3 +301,30 @@ val=('mark','天津','F')
 # insertSql=r"insert into User(name,address,gender) values('rose','上海','M')"
 cursor.execute(sql,val)
 db.commit()
+"""
+import re
+import datetime
+def calculateDate(startDateStr,endDateStr):
+
+    reg="^[1-9]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])\s+(20|21|22|23|[0-1]\d):[0-5]\d:[0-5]\d$"
+    formart="%Y-%m-%d %H:%M:%S"
+    if not re.match(reg,startDateStr):
+        raise RuntimeWarning("时间格式错误")
+
+    if not re.match(reg,startDateStr):
+        raise RuntimeWarning("时间格式错误")
+
+    startDate=datetime.datetime.strptime(startDateStr,formart)
+    endDate=datetime.datetime.strptime(endDateStr,formart)
+    compareYear =endDate-startDate
+    days=compareYear.days
+    year=days//365
+    years=days/365
+    month=((years-year)*12)
+    printObj("相差"+str(year)+"年"+str(month)+"月" )
+
+calculateDate('2014-08-15 00:00:00','2019-04-12 23:59:59')
+
+
+
+
