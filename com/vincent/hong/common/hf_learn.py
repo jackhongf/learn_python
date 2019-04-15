@@ -151,6 +151,8 @@ finally:
 
 
 #一个简单的网络爬虫
+from urllib import request
+
 """
 from urllib import request
 url= "https://github.com/"
@@ -325,6 +327,37 @@ def calculateDate(startDateStr,endDateStr):
 
 calculateDate('2014-08-15 00:00:00','2019-04-12 23:59:59')
 
+#使用代理爬虫
+#1 定义一个http proxy 2 创建一个opener 3 安装代理对象
+#定义一个http proxy
+#创建一个opener
+# http_support=request.ProxyHandler({"http":"117.191.11.113:80"})
+# opener=request.build_opener(http_support)
+# opener.addheaders=[("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36")]
+#安装代理
+# request.install_opener(opener)
+# response=request.urlopen('http://www.sooshong.com/')
+# htmlss=response.read()
+# print("sdfsdfsd%s"%htmlss)
+
+from com.vincent.hong.spider import proxy4spider
+url='https://www.nuomi.com/?cid=xsydh02'
+proxyDict ={}
+file = open(r'D:\git_repository_4Python\doc\http_proxy_iplist.txt')
+ipList = file.readlines()
+httpProxyIpList = []
+for ip in ipList:
+    ip=ip[0:-1]
+    httpProxyIpList.append(ip)
+proxyDict['http'] =httpProxyIpList
+
+htmlFile = open(r'D:\git_repository_4Python\doc\htmlAll.html',mode='a+')
+countF = 0
+# while True:
+html = proxy4spider.surfInternet(url,proxyDict)
+print('数据结果%s',html)
+htmlFile.write(html.decode('utf-8'))
+countF+=countF
 
 
 

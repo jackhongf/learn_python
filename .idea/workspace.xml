@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0a838f2-ba38-4487-88e0-e2fb23924d5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/com/vincent/hong/spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" afterDir="false" />
     </list>
@@ -13,98 +15,66 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonProject$hf_learn.coverage" NAME="hf_learn Coverage Results" MODIFIED="1554885625957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
+    <SUITE FILE_PATH="coverage/learn_python$proxy4spider.coverage" NAME="proxy4spider Coverage Results" MODIFIED="1555173779637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/spider" />
     <SUITE FILE_PATH="coverage/pythonProject$python_learn.coverage" NAME="python_learn Coverage Results" MODIFIED="1554788843275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
     <SUITE FILE_PATH="coverage/learn_python$Cat.coverage" NAME="Cat Coverage Results" MODIFIED="1554957890883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
-    <SUITE FILE_PATH="coverage/learn_python$hf_learn.coverage" NAME="hf_learn Coverage Results" MODIFIED="1555052710842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
+    <SUITE FILE_PATH="coverage/learn_python$hf_learn.coverage" NAME="hf_learn Coverage Results" MODIFIED="1555173849912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/vincent/hong/common" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1390">
-              <caret line="326" lean-forward="true" selection-start-line="326" selection-end-line="326" />
+            <state relative-caret-position="317">
+              <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/err.py">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-909969707/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2438">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="118">
+              <caret line="352" column="23" lean-forward="true" selection-start-line="352" selection-start-column="15" selection-end-line="352" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/protocol.py">
+        <entry file="file://H:/Program Files/Python/Lib/typing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4853">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="118">
+              <caret line="1528" column="8" selection-start-line="1528" selection-start-column="8" selection-end-line="1528" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/connections.py">
+        <entry file="file://$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24150">
-              <caret line="1074" selection-start-line="1074" selection-end-line="1074" />
+            <state relative-caret-position="234">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/__init__.py">
+        <entry file="file://H:/Program Files/Python/Lib/random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2208">
-              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+            <state relative-caret-position="160">
+              <caret line="754" selection-start-line="754" selection-end-line="754" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/cursor.py">
+        <entry file="file://H:/Program Files/Python/Lib/urllib/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12512">
-              <caret line="550" selection-start-line="550" selection-end-line="550" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8579">
-              <caret line="394" selection-start-line="394" selection-end-line="394" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/mysql/connector/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2622">
-              <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/vincent/hong/service/hf_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="208">
+              <caret line="435" column="13" selection-start-line="435" selection-start-column="13" selection-end-line="435" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -125,6 +95,9 @@
       <find>math</find>
       <find>speed</find>
       <find>time</find>
+      <find>url</find>
+      <find>open</find>
+      <find>urlopen</find>
     </findStrings>
     <dirStrings>
       <dir>D:\git_repository_4Python\learn_python\venv\Lib\site-packages\pymysql</dir>
@@ -144,6 +117,7 @@
         <option value="$PROJECT_DIR$/com/vincent/hong/service/hf_utils.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/common/__init__.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/common/Cat.py" />
+        <option value="$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py" />
         <option value="$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py" />
       </list>
     </option>
@@ -156,8 +130,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="y" value="2" />
+    <option name="x" value="540" />
+    <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="700" />
   </component>
@@ -168,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,54 +178,20 @@
             </path>
             <path>
               <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="learn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="vincent" type="462c0819:PsiDirectoryNode" />
+              <item name="hong" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="six-1.12.0.dist-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (venv) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,6 +289,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="proxy4spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/vincent/hong/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="python_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,6 +336,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.hf_learn" />
+        <item itemvalue="Python.proxy4spider" />
         <item itemvalue="Python.Cat" />
         <item itemvalue="Python.python_learn" />
         <item itemvalue="Python.__init__" />
@@ -394,7 +358,9 @@
       <workItem from="1554779479427" duration="7782000" />
       <workItem from="1554859441698" duration="21493000" />
       <workItem from="1554951336001" duration="12963000" />
-      <workItem from="1555033682695" duration="9442000" />
+      <workItem from="1555033682695" duration="11834000" />
+      <workItem from="1555056011863" duration="1215000" />
+      <workItem from="1555128440714" duration="14768000" />
     </task>
     <task id="LOCAL-00001" summary="1.异常及自定义异常的学习&#10;2.新增对象的学习">
       <created>1554886204943</created>
@@ -403,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554886204943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="时间操作">
+      <created>1555052788127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555052788127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64066000" />
+    <option name="totallyTimeSpent" value="82441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,23 +393,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2859304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30257186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7019667" visible="true" weight="0.3737705" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" weight="0.21803279" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.69818455" visible="true" weight="0.04918033" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.70877457" weight="0.3590164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848714" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2980333" side_tool="true" visible="true" weight="0.3737705" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.494705" weight="0.1852459" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2912254" side_tool="true" weight="0.5852459" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49167928" weight="0.1852459" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,7 +446,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.异常及自定义异常的学习&#10;2.新增对象的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.异常及自定义异常的学习&#10;2.新增对象的学习" />
+    <MESSAGE value="时间操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,12 +457,31 @@
           <line>64</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="user" />
-        <watch expression="user" />
+        <watch expression="excp" />
       </configuration>
     </watches-manager>
   </component>
@@ -502,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="2318" lean-forward="true" selection-start-line="2318" selection-end-line="2318" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Program Files/Python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="331" column="43" selection-start-line="331" selection-start-column="43" selection-end-line="331" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -622,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="275" column="42" selection-start-line="275" selection-start-column="42" selection-end-line="275" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,20 +626,6 @@
     </entry>
     <entry file="file://H:/Program Files/Python/Lib/urllib/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://H:/Program Files/Python/Lib/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Program Files/Python/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34362">
-          <caret line="1504" column="8" selection-start-line="1504" selection-start-column="8" selection-end-line="1504" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-133914220/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,10 +711,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-909969707/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="249" column="4" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Program Files/Python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Program Files/Python/Lib/urllib/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="435" column="13" selection-start-line="435" selection-start-column="13" selection-end-line="435" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Program Files/Python/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="1528" column="8" selection-start-line="1528" selection-start-column="8" selection-end-line="1528" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-909969707/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="352" column="23" lean-forward="true" selection-start-line="352" selection-start-column="15" selection-end-line="352" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/Program Files/Python/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="754" selection-start-line="754" selection-end-line="754" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/vincent/hong/spider/proxy4spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/vincent/hong/common/hf_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1390">
-          <caret line="326" lean-forward="true" selection-start-line="326" selection-end-line="326" />
+        <state relative-caret-position="317">
+          <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
         </state>
       </provider>
     </entry>
